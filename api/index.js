@@ -3,7 +3,7 @@ const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 
 async function getDom(url) {
-  const API_KEY = 'your_api_key_here'; // Replace with your actual API key
+  const API_KEY =process.env.SCRAPER_API_KEY; // Replace with your actual API key
   return axios("http://api.scraperapi.com/", {
     params: {
       url: url,
