@@ -4,7 +4,7 @@
   "description": "Getting some data from Codeforces.",
   "main": "index.js",
   "scripts": {
-    "start": "func start", // Azure Functions start script
+    "start": "func start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
